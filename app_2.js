@@ -117,4 +117,4 @@ app.delete('/movie/:id', (req, res) => {
     res.send("FIlme foi apagado!");
 });
 
-app.listen(8080, () => console.log('Servidor iniciado na porta 8080'));
+app.listen(port, () => console.log(`Servidor iniciado em http://localhost:${port}`));
